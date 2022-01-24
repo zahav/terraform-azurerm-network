@@ -29,6 +29,7 @@ module "simple_network" {
   address_space       = var.address_space
   subnet_names        = var.subnet_names
   subnet_prefixes     = var.subnet_prefixes
+  dns_servers         = var.dns_servers
 
   depends_on = [data.azurerm_resource_group.rg]
 }

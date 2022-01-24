@@ -35,3 +35,9 @@ variable "subnet_prefixes" {
 # OPTIONAL PARAMETERS
 # These parameters have reasonable defaults
 # ---------------------------------------------------------------------------------------------------------------------
+
+variable "dns_servers" {
+  description = "List of IP addresses of DNS servers."
+  type        = list(string)
+  default     = []
+}
