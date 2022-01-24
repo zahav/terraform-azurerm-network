@@ -1,0 +1,5 @@
+resource_group_name = "abcdev01-shared"
+vnet_name           = "abcdev01ss-vnet01"
+address_space       = ["10.200.0.0/23"]
+subnet_names        = ["abcdev01ss-vnet01-subnetname"]
+subnet_prefixes     = ["10.200.0.0/27"]
